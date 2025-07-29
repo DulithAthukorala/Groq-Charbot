@@ -68,7 +68,3 @@ You can now run your backend and frontend code as needed from their respective f
 
 ```
 
----
-
-Let me know if you want badges, logo, or deploy instructions added too.
-```
