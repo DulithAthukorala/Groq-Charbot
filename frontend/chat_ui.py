@@ -1,6 +1,9 @@
 import streamlit as st
 import requests
 
+# st.set_page_config must be the first Streamlit command
+st.set_page_config(page_title="Groq Chatbot", page_icon="🧠", layout="centered")
+
 st.markdown("""
     <style>
         html, body, [class*="css"] {
@@ -9,9 +12,6 @@ st.markdown("""
         }
     </style>
 """, unsafe_allow_html=True)
-
-
-st.set_page_config(page_title="Groq Chatbot", page_icon="🧠", layout="centered")
 
 st.markdown(
     "<h1 style='text-align: center; color: #4A90E2;'>🧠 Groq Chatbot</h1>", 
